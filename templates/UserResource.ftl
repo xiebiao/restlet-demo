@@ -1,0 +1,3 @@
+<html>
+${latestProduct.name}
+<html>
