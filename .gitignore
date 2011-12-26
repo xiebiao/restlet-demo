@@ -1,6 +1,2 @@
 
-syntax: regexp
-^build$
-^bin$
-^target$
-.classpath
+target

@@ -19,7 +19,7 @@ public class App extends Application {
 	@Override
 	public synchronized Restlet createInboundRoot() {
 		Router router = new Router(getContext());
-		router.attach("/first", UserResource.class);
+		router.attach("/freemarker", UserResource.class);
 		return router;
 	}
 }
