@@ -12,7 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<restlet.version>2.0.8</restlet.version>
+		<restlet.version>2.0.10</restlet.version>
 		<restlet.edtion>org.restlet.jse</restlet.edtion>
 	</properties>
 	<repositories>
