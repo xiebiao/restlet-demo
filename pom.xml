@@ -3,17 +3,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.xiebiao.restlet</groupId>
-	<artifactId>restlet-test</artifactId>
+	<artifactId>restlet-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>restlet-test</name>
+	<name>restlet-demo</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<restlet.version>2.0.10</restlet.version>
-		<restlet.edtion>org.restlet.jse</restlet.edtion>
+		<restlet_version>2.0.11</restlet_version>
+		<restlet_edtion>org.restlet.jse</restlet_edtion>
 	</properties>
 	<repositories>
 		<repository>
@@ -40,29 +40,29 @@
 			<version>1.2.1</version>
 		</dependency>
 		<dependency>
-			<groupId>${restlet.edtion}</groupId>
+			<groupId>${restlet_edtion}</groupId>
 			<artifactId>org.restlet</artifactId>
-			<version>${restlet.version}</version>
+			<version>${restlet_version}</version>
 		</dependency>
 		<dependency>
-			<groupId>${restlet.edtion}</groupId>
+			<groupId>${restlet_edtion}</groupId>
 			<artifactId>org.restlet.ext.jetty</artifactId>
-			<version>${restlet.version}</version>
+			<version>${restlet_version}</version>
 		</dependency>
 		<dependency>
-			<groupId>${restlet.edtion}</groupId>
+			<groupId>${restlet_edtion}</groupId>
 			<artifactId>org.restlet.ext.oauth</artifactId>
 			<version>2.1-M5</version>
 		</dependency>
 		<dependency>
-			<groupId>${restlet.edtion}</groupId>
+			<groupId>${restlet_edtion}</groupId>
 			<artifactId>org.restlet.ext.slf4j</artifactId>
-			<version>${restlet.version}</version>
+			<version>${restlet_version}</version>
 		</dependency>
 		<dependency>
-			<groupId>${restlet.edtion}</groupId>
+			<groupId>${restlet_edtion}</groupId>
 			<artifactId>org.restlet.ext.freemarker</artifactId>
-			<version>${restlet.version}</version>
+			<version>${restlet_version}</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
